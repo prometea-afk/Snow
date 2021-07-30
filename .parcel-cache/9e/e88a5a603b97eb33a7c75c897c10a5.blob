@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow | New Branding Agency</title>
+    <link rel="stylesheet" href="53675c9c91470c37f1ceeb6d02186967">
+  </head>
+  <body>
+    <!-- HEADER/BANNER -->
+
+    <div class="container-fluid container-header">
+      <div class="text-box">
+        <h4 class="h5 text-box__sub-head">New branding agency</h4>
+        <h1 class="h1 text-box__head-primary">
+          We are about to change the way <br>
+
+          <em>you publish on web</em>
+        </h1>
+      </div>
+      <div class="header__scroll__box">
+        <a href="#section-about"><span class="header__scroll"></span></a>
+      </div>
+    </div>
+
+    <!-- SECTION ABOUT -->
+
+    <div class="container container-about" id="section-about">
+      <div class="text-box__2">
+        <h2 class="text-box__head-secondary">About our agency</h2>
+        <p class="text-box__paragraph">
+          We are a new design studio based in USA. We have over 20 years of
+          combined experience, and know <br>
+          a thing or two about designing websites and mobile apps. Clever use of
+          technology <br>
+          and lean processes enable us to work faster and smarter.
+        </p>
+        <div class="text-box__img">
+          <img src="6e422b46f2885dd3a12411198df3a830" alt="signature">
+        </div>
+      </div>
+    </div>
+
+    <script src="20be072fa6c422c9764eeaa121a224c9"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+.container-portfolio {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: $gray-100;
+  position: relative;
+}
+
+.portfolio {
+  height: 25rem;
+
+  &__cepi {
+    background-color: $gray-200;
+    height: 25rem;
+  }
+
+  &__ana {
+    background-color: $gray-400;
+    height: 25rem;
+  }
+
+  &__midd {
+    justify-content: center;
+    vertical-align: middle;
+    margin: auto;
+  }
+
+  &__txt-box {
+    text-align: center;
+
+    color: $white;
+  }
+
+  &__bott {
+    background-color: $gray-300;
+    height: 25rem;
+  }
+}
+
+.ngjyre {
+  background-color: $black;
+}
+
+.big-boy {
+  text-align: center;
+  background-color: transparent;
+  color: $black;
+  border: none;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
+  &:hover {
+    background-color: rgba($gray-100, 0.5);
+    color: $black;
+  }
+}
+
+.col.foo {
+  text-align: center;
+  justify-content: center;
+}

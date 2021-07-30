@@ -1,0 +1,51 @@
+.container-header {
+  height: 85vh;
+  background-color: $gray-700;
+  position: relative;
+  z-index: 0;
+}
+
+.container-about {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.container-features {
+  background-image: url("/img/bg.jpg");
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.container-projects {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.container-testimonials {
+  background-image: url("/img/bg.jpg");
+  vertical-align: middle;
+  margin: auto;
+  height: 100%;
+}
+
+.container-clients {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+.container-blog {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: $gray-100;
+  position: relative;
+}
+
+.container-contact {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  border-top: 1px solid $gray-200;
+  background-color: $gray-100;
+}

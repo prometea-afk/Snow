@@ -1,0 +1,33 @@
+{
+  "name": "snow1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "cleanup": "rm -rf .cache dist",
+    "dev": "npm run cleanup && parcel ./index.html"
+  },
+  "author": "Tea.A",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-resolver-ignore": "^1.0.2",
+    "popper.js": "^1.16.1",
+    "sass": "^1.36.0"
+  },
+  "parcelIgnore": [
+    "img/*.*"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Snow"
+  },
+  "description": ""
+}

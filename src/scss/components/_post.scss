@@ -1,0 +1,93 @@
+.post {
+  box-shadow: 0rem 0px 0.9rem 2px rgba($gray-500, 0.5);
+  margin-bottom: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+  &__img {
+    height: 30rem;
+    width: 100%;
+    background-color: $gray-200;
+    position: relative;
+  }
+
+  &__category {
+    padding: 0.9rem 0.5rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 30%;
+    background-color: $black;
+    color: $white;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-weight: 100;
+  }
+
+  &__text {
+    padding: 2rem;
+  }
+
+  &__title {
+    line-height: $line-height-base;
+    font-weight: 700;
+  }
+
+  &__date {
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  &__dscp {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    letter-spacing: 2px;
+  }
+}
+
+.long {
+  height: 40rem;
+}
+
+// BLOG MASONRY
+
+.masonry-wrapper {
+  padding: 1.5em;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masonry {
+  columns: 1;
+  column-gap: 25px;
+}
+.masonry-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    columns: 2;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    columns: 3;
+  }
+}
+.masonry-item,
+.masonry-content {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.masonry-item {
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.3));
+  transition: filter 0.25s ease-in-out;
+}
+.masonry-item:hover {
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
+}

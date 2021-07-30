@@ -1,0 +1,45 @@
+.form-box {
+  padding-left: 3rem;
+}
+
+input {
+  margin-bottom: 2rem;
+
+  &#name {
+    // width: 48.6666%;
+    display: flex;
+    float: left;
+  }
+
+  &#email {
+    // width: 48.66666%;
+    display: flex;
+    float: right;
+  }
+}
+
+textarea {
+  max-height: 20rem;
+  height: 20rem;
+  border-radius: 7px;
+  margin-bottom: 2rem;
+  // margin-left: 1rem;
+  // margin-right: 1rem;
+
+  &::placeholder {
+    padding: 0.4rem;
+    font-size: 1.5rem;
+  }
+}
+
+.sub-btn {
+  border-radius: 0px;
+  padding: 1.3rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+form#post-comment {
+  // padding-top: 4rem;
+  padding-bottom: 8rem;
+}

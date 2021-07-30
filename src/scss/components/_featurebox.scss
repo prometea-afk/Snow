@@ -1,0 +1,30 @@
+.feature-box {
+  padding: 1.5rem;
+  color: $white;
+  border-radius: 3px;
+  transition: transform 0.3s;
+  display: table;
+
+  &__head {
+    line-height: $line-height-base;
+    letter-spacing: 3px;
+  }
+
+  &__text {
+    line-height: $line-height-base;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &__left {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 2rem;
+  }
+
+  &__right {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+  }
+}
