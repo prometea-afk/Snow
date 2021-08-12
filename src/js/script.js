@@ -17,7 +17,7 @@ class myFooter extends HTMLElement {
             amet leo ullamcorper feugiat efficitur.
           </p>
           <img
-            src="/img/facebook.png"
+            src="img/facebook.png"
             alt="facebook"
             class="footer__img rounded float-left"
           />
@@ -135,4 +135,4 @@ class myFooter extends HTMLElement {
 }
 
 customElements.define("my-footer", myFooter);
-customElements.define("my-header", myHeader);
+// customElements.define("my-header", myHeader);

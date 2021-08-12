@@ -34,29 +34,13 @@
 
   &__2 {
     font-size: 1.4rem;
+    text-transform: none;
   }
 }
 
 .blogs-stitle {
   margin-bottom: 4rem;
   padding-top: 2rem;
-}
-
-.comments {
-  // &__left {
-  //   vertical-align: baseline;
-  // }
-
-  // &__right {
-  // }
-
-  &__img-box {
-    height: 13rem;
-    width: 13rem;
-    background-color: $gray-200;
-    border-radius: 50%;
-    text-align: center;
-  }
 }
 
 .nav {
@@ -71,4 +55,20 @@
     display: flex;
     float: right;
   }
+}
+
+.c0 {
+  border: 0px;
+}
+
+.comments__img-box {
+  background-color: gray;
+  vertical-align: middle;
+  margin: auto;
+  margin-right: 15px;
+}
+
+.comments__img-box2 {
+  background-color: gray;
+  margin-top: 2.8%;
 }

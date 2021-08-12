@@ -38,9 +38,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  font-size: 10px;
-}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -52,7 +49,7 @@ body {
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #212529;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
@@ -79,52 +76,47 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.605rem + 4.26vw);
+  font-size: calc(1.375rem + 1.5vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 4.8rem;
+    font-size: 2.5rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.505rem + 3.06vw);
+  font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 3.8rem;
+    font-size: 2rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(1.365rem + 1.38vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 2.4rem;
+    font-size: 1.75rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.305rem + 0.66vw);
+  font-size: calc(1.275rem + 0.3vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
 h5, .h5 {
-  font-size: calc(1.265rem + 0.18vw);
-}
-@media (min-width: 1200px) {
-  h5, .h5 {
-    font-size: 1.4rem;
-  }
+  font-size: 1.25rem;
 }
 
 h6, .h6 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 p {
@@ -2135,24 +2127,19 @@ progress {
   padding-bottom: calc(0.375rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: calc(1.285rem + 0.42vw);
-}
-@media (min-width: 1200px) {
-  .col-form-label-lg {
-    font-size: 1.6rem;
-  }
+  font-size: 1.25rem;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .form-text {
@@ -2167,7 +2154,7 @@ progress {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
@@ -2195,7 +2182,7 @@ progress {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
-  height: 1.7em;
+  height: 1.5em;
 }
 .form-control::placeholder {
   color: #6c757d;
@@ -2255,7 +2242,7 @@ progress {
   width: 100%;
   padding: 0.375rem 0;
   margin-bottom: 0;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #212529;
   background-color: transparent;
   border: solid transparent;
@@ -2267,9 +2254,9 @@ progress {
 }
 
 .form-control-sm {
-  min-height: calc(1.7em + (0.5rem + 2px));
+  min-height: calc(1.5em + (0.5rem + 2px));
   padding: 0.25rem 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   border-radius: 0.2rem;
 }
 .form-control-sm::file-selector-button {
@@ -2284,15 +2271,10 @@ progress {
 }
 
 .form-control-lg {
-  min-height: calc(1.7em + (1rem + 2px));
+  min-height: calc(1.5em + (1rem + 2px));
   padding: 0.5rem 1rem;
-  font-size: calc(1.285rem + 0.42vw);
+  font-size: 1.25rem;
   border-radius: 0.3rem;
-}
-@media (min-width: 1200px) {
-  .form-control-lg {
-    font-size: 1.6rem;
-  }
 }
 .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
@@ -2306,13 +2288,13 @@ progress {
 }
 
 textarea.form-control {
-  min-height: calc(1.7em + (0.75rem + 2px));
+  min-height: calc(1.5em + (0.75rem + 2px));
 }
 textarea.form-control-sm {
-  min-height: calc(1.7em + (0.5rem + 2px));
+  min-height: calc(1.5em + (0.5rem + 2px));
 }
 textarea.form-control-lg {
-  min-height: calc(1.7em + (1rem + 2px));
+  min-height: calc(1.5em + (1rem + 2px));
 }
 
 .form-control-color {
@@ -2324,11 +2306,11 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 .form-control-color::-moz-color-swatch {
-  height: 1.7em;
+  height: 1.5em;
   border-radius: 0.25rem;
 }
 .form-control-color::-webkit-color-swatch {
-  height: 1.7em;
+  height: 1.5em;
   border-radius: 0.25rem;
 }
 
@@ -2339,7 +2321,7 @@ textarea.form-control-lg {
   -moz-padding-start: calc(0.75rem - 3px);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #212529;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
@@ -2377,24 +2359,19 @@ textarea.form-control-lg {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .form-select-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: calc(1.285rem + 0.42vw);
-}
-@media (min-width: 1200px) {
-  .form-select-lg {
-    font-size: 1.6rem;
-  }
+  font-size: 1.25rem;
 }
 
 .form-check {
   display: block;
-  min-height: 1.7rem;
+  min-height: 1.5rem;
   padding-left: 1.5em;
   margin-bottom: 0.125rem;
 }
@@ -2406,7 +2383,7 @@ textarea.form-control-lg {
 .form-check-input {
   width: 1em;
   height: 1em;
-  margin-top: 0.35em;
+  margin-top: 0.25em;
   vertical-align: top;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -2661,7 +2638,7 @@ textarea.form-control-lg {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #212529;
   text-align: center;
   white-space: nowrap;
@@ -2675,16 +2652,8 @@ textarea.form-control-lg {
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: calc(1.285rem + 0.42vw);
+  font-size: 1.25rem;
   border-radius: 0.3rem;
-}
-@media (min-width: 1200px) {
-  .input-group-lg > .form-control,
-.input-group-lg > .form-select,
-.input-group-lg > .input-group-text,
-.input-group-lg > .btn {
-    font-size: 1.6rem;
-  }
 }
 
 .input-group-sm > .form-control,
@@ -2692,7 +2661,7 @@ textarea.form-control-lg {
 .input-group-sm > .input-group-text,
 .input-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   border-radius: 0.2rem;
 }
 
@@ -2733,7 +2702,7 @@ textarea.form-control-lg {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #fff;
   background-color: rgba(25, 135, 84, 0.9);
   border-radius: 0.25rem;
@@ -2748,11 +2717,11 @@ textarea.form-control-lg {
 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #198754;
-  padding-right: calc(1.7em + 0.75rem);
+  padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right calc(0.425em + 0.1875rem) center;
-  background-size: calc(0.85em + 0.375rem) calc(0.85em + 0.375rem);
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
   border-color: #198754;
@@ -2760,8 +2729,8 @@ textarea.form-control-lg {
 }
 
 .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
-  padding-right: calc(1.7em + 0.75rem);
-  background-position: top calc(0.425em + 0.1875rem) right calc(0.425em + 0.1875rem);
+  padding-right: calc(1.5em + 0.75rem);
+  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
 
 .was-validated .form-select:valid, .form-select.is-valid {
@@ -2771,7 +2740,7 @@ textarea.form-control-lg {
   padding-right: 4.125rem;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-position: right 0.75rem center, center right 2.25rem;
-  background-size: 16px 12px, calc(0.85em + 0.375rem) calc(0.85em + 0.375rem);
+  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-select:valid:focus, .form-select.is-valid:focus {
   border-color: #198754;
@@ -2822,7 +2791,7 @@ textarea.form-control-lg {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
   border-radius: 0.25rem;
@@ -2837,11 +2806,11 @@ textarea.form-control-lg {
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
   border-color: #dc3545;
-  padding-right: calc(1.7em + 0.75rem);
+  padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right calc(0.425em + 0.1875rem) center;
-  background-size: calc(0.85em + 0.375rem) calc(0.85em + 0.375rem);
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border-color: #dc3545;
@@ -2849,8 +2818,8 @@ textarea.form-control-lg {
 }
 
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
-  padding-right: calc(1.7em + 0.75rem);
-  background-position: top calc(0.425em + 0.1875rem) right calc(0.425em + 0.1875rem);
+  padding-right: calc(1.5em + 0.75rem);
+  background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
 
 .was-validated .form-select:invalid, .form-select.is-invalid {
@@ -2860,7 +2829,7 @@ textarea.form-control-lg {
   padding-right: 4.125rem;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-position: right 0.75rem center, center right 2.25rem;
-  background-size: 16px 12px, calc(0.85em + 0.375rem) calc(0.85em + 0.375rem);
+  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
   border-color: #dc3545;
@@ -2898,7 +2867,7 @@ textarea.form-control-lg {
 .btn {
   display: inline-block;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #212529;
   text-align: center;
   text-decoration: none;
@@ -3383,18 +3352,13 @@ textarea.form-control-lg {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: calc(1.285rem + 0.42vw);
+  font-size: 1.25rem;
   border-radius: 0.3rem;
-}
-@media (min-width: 1200px) {
-  .btn-lg, .btn-group-lg > .btn {
-    font-size: 1.6rem;
-  }
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   border-radius: 0.2rem;
 }
 
@@ -3691,7 +3655,7 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -3945,17 +3909,12 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: -0.01rem;
-  padding-bottom: -0.01rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: calc(1.285rem + 0.42vw);
+  font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
-}
-@media (min-width: 1200px) {
-  .navbar-brand {
-    font-size: 1.6rem;
-  }
 }
 .navbar-nav {
   display: flex;
@@ -3985,17 +3944,12 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: calc(1.285rem + 0.42vw);
+  font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
-}
-@media (min-width: 1200px) {
-  .navbar-toggler {
-    font-size: 1.6rem;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -4606,12 +4560,7 @@ textarea.form-control-lg {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: calc(1.285rem + 0.42vw);
-}
-@media (min-width: 1200px) {
-  .pagination-lg .page-link {
-    font-size: 1.6rem;
-  }
+  font-size: 1.25rem;
 }
 .pagination-lg .page-item:first-child .page-link {
   border-top-left-radius: 0.3rem;
@@ -4624,7 +4573,7 @@ textarea.form-control-lg {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 .pagination-sm .page-item:first-child .page-link {
   border-top-left-radius: 0.2rem;
@@ -5311,7 +5260,7 @@ textarea.form-control-lg {
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .modal-body {
@@ -5503,7 +5452,7 @@ textarea.form-control-lg {
   font-family: var(--bs-font-sans-serif);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5514,7 +5463,7 @@ textarea.form-control-lg {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 1rem;
+  font-size: 0.875rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -5605,7 +5554,7 @@ textarea.form-control-lg {
   font-family: var(--bs-font-sans-serif);
   font-style: normal;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5616,7 +5565,7 @@ textarea.form-control-lg {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 1rem;
+  font-size: 0.875rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -6018,7 +5967,7 @@ textarea.form-control-lg {
 
 .offcanvas-title {
   margin-bottom: 0;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .offcanvas-body {
@@ -7186,27 +7135,27 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: calc(1.605rem + 4.26vw) !important;
+  font-size: calc(1.375rem + 1.5vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.505rem + 3.06vw) !important;
+  font-size: calc(1.325rem + 0.9vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.365rem + 1.38vw) !important;
+  font-size: calc(1.3rem + 0.6vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.305rem + 0.66vw) !important;
+  font-size: calc(1.275rem + 0.3vw) !important;
 }
 
 .fs-5 {
-  font-size: calc(1.265rem + 0.18vw) !important;
+  font-size: 1.25rem !important;
 }
 
 .fs-6 {
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
 }
 
 .fst-italic {
@@ -7246,7 +7195,7 @@ textarea.form-control-lg {
 }
 
 .lh-base {
-  line-height: 1.7 !important;
+  line-height: 1.5 !important;
 }
 
 .lh-lg {
@@ -10741,23 +10690,19 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 4.8rem !important;
+    font-size: 2.5rem !important;
   }
 
   .fs-2 {
-    font-size: 3.8rem !important;
+    font-size: 2rem !important;
   }
 
   .fs-3 {
-    font-size: 2.4rem !important;
+    font-size: 1.75rem !important;
   }
 
   .fs-4 {
-    font-size: 1.8rem !important;
-  }
-
-  .fs-5 {
-    font-size: 1.4rem !important;
+    font-size: 1.5rem !important;
   }
 }
 @media print {
@@ -10801,6 +10746,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.margin-sm-bot {
+  margin-bottom: 1.5rem;
+}
+
+.padding-left-big {
+  padding-left: 15rem;
+}
+
+.margin-m-top {
+  margin-top: 4rem;
+}
+
+h1,
+.h1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
 *,
 *::after,
 *::before {
@@ -10879,18 +10841,6 @@ body {
   line-height: 3.6rem;
 }
 
-.margin-sm-bot {
-  margin-bottom: 1.5rem;
-}
-
-.padding-left-big {
-  padding-left: 15rem;
-}
-
-.margin-m-top {
-  margin-top: 4rem;
-}
-
 .header__scroll {
   position: absolute;
   bottom: 0;
@@ -10908,9 +10858,9 @@ body {
   top: 50%;
   left: 50%;
   content: "";
-  width: 1.6rem;
-  height: 1.6rem;
-  margin: -12px 0 0 -8px;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: -16px 0 0 -11px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
@@ -10978,11 +10928,11 @@ body {
   display: table;
 }
 .feature-box__head {
-  line-height: 1.7;
+  line-height: 1.7 !important;
   letter-spacing: 3px;
 }
 .feature-box__text {
-  line-height: 1.7;
+  line-height: 1.7 !important;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -11058,7 +11008,7 @@ body {
   justify-content: center;
   vertical-align: middle;
   margin: auto;
-  height: 25rem;
+  height: 10rem;
 }
 
 .a7 {
@@ -11248,7 +11198,7 @@ body {
   padding: 2rem;
 }
 .post__title {
-  line-height: 1.7;
+  line-height: 1.7 !important;
   font-weight: 700;
 }
 .post__date {
@@ -11479,19 +11429,12 @@ form#post-comment {
 }
 .capital__2 {
   font-size: 1.4rem;
+  text-transform: none;
 }
 
 .blogs-stitle {
   margin-bottom: 4rem;
   padding-top: 2rem;
-}
-
-.comments__img-box {
-  height: 13rem;
-  width: 13rem;
-  background-color: #e9ecef;
-  border-radius: 50%;
-  text-align: center;
 }
 
 .nav__mid {
@@ -11500,6 +11443,22 @@ form#post-comment {
 .nav__next {
   display: flex;
   float: right;
+}
+
+.c0 {
+  border: 0px;
+}
+
+.comments__img-box {
+  background-color: gray;
+  vertical-align: middle;
+  margin: auto;
+  margin-right: 15px;
+}
+
+.comments__img-box2 {
+  background-color: gray;
+  margin-top: 2.8%;
 }
 
 .container-singlepo {
