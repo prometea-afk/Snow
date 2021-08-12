@@ -1,10 +1,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import "base/customVariables";
+
 @import "base/typography";
 
 @import "layout/header";
-
-@import "base/customVariables";
 
 @import "components/toBottom";
 
